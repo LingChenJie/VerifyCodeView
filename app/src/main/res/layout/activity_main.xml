@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <com.jc.verifycode.VerifyCodeEditText
+            android:id="@+id/verifyCode"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/verifycode_select_color"
+            android:inputType="number"
+            android:textSize="18sp"
+            app:codeMargin="20dp"
+            app:borderRadius="6dp"
+            app:borderWidth="2dp"
+            app:cursorColor="@color/verifycode_select_color"
+            app:selectBorderColor="@color/verifycode_select_color"
+            app:normalBorderColor="@color/verifycode_normal_color"
+            app:cursorWidth="1dp"/>
+
+
+</LinearLayout>

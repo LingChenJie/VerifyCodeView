@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--验证码的属性-->
+    <declare-styleable name="VerifyCodeEditText">
+        <attr name="figures" format="integer"/><!--验证码的个数-->
+        <attr name="codeMargin" format="dimension"/><!--验证码的之间的间隔-->
+        <attr name="selectBorderColor" format="reference"/><!--选中的边框颜色-->
+        <attr name="normalBorderColor" format="reference"/><!--普通的边框颜色-->
+        <attr name="borderRadius" format="dimension"/><!--边角的滑度 -->
+        <attr name="borderWidth" format="dimension"/><!--边框的厚度 -->
+        <attr name="cursorDuration" format="integer"/><!--光标跳动的间隔时间 -->
+        <attr name="cursorWidth" format="dimension"/><!--光标的宽度 -->
+        <attr name="cursorColor" format="color|reference"/><!--光标的颜色 -->
+    </declare-styleable>
+</resources>
