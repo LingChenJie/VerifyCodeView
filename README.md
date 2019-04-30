@@ -3,9 +3,9 @@
 
 简介见：https://blog.csdn.net/linglingchenchen/article/details/89686384
 
-使用如下
+使用如下，详细用法见demo
 ```xml
-<com.jc.verifycode.VerifyCodeEditText
+     <com.jc.verifycode.VerifyCodeEditText
             android:id="@+id/verifyCode"
             android:layout_marginTop="60dp"
             android:layout_marginStart="20dp"
@@ -22,9 +22,11 @@
             app:selectBorderColor="@color/verifycode_select_color"
             app:normalBorderColor="@color/verifycode_normal_color"
             app:cursorWidth="1dp"/>
-            
-    
-    
+           
+```
+
+自定义属性如下
+```xml
     <!--验证码的属性-->
     <declare-styleable name="VerifyCodeEditText">
         <attr name="figures" format="integer"/><!--验证码的个数-->
